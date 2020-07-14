@@ -6,3 +6,10 @@
     font-size: 16px;
     line-height: 18px;
 }
+
+@media screen and (max-width: 520px){
+    .footer__nav-link{
+        padding-bottom: 32px;
+        font-size: 24px;
+    }
+}

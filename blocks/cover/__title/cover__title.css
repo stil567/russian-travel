@@ -10,3 +10,23 @@
 }
 
 
+@media screen and (max-width: 1024px){
+    
+    .cover__title{
+        padding-top: 195px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cover__title{
+        padding-top: 115px;
+    }
+}
+
+@media screen and (max-width: 520px){
+     .cover__title{
+        font-size: 32px;
+        line-height: 35px;
+        padding-top: 33px;
+    }
+}

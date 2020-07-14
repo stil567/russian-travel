@@ -10,3 +10,26 @@
 }
 
 
+@media screen and (max-width: 1024px){
+    
+    .places__place {
+    grid-gap: 32px;
+    grid-template-columns: repeat(2, fit-content(350px));
+        
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    .places__place {
+        grid-gap: 28px;
+        grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+        margin-bottom: 72px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .places__place{
+        margin-bottom: 48px;
+    }
+}
