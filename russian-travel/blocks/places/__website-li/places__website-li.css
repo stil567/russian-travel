@@ -1,0 +1,13 @@
+.places__website-li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+    
+}
+
+

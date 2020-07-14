@@ -1,0 +1,13 @@
+.places__website-link{
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    letter-spacing:0;
+
+    text-decoration-line: underline;
+}
+
+.places__website-link:hover {
+    color: #AAAAAA;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.root{
+    background-color: #2A2C2F;
+    
+    color: #fff;
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 300;
+    
+    box-sizing: border-box;
+}

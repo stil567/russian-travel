@@ -1,0 +1,10 @@
+@import url(__title/intro__title.css);
+@import url(__text/intro__text.css);
+@import url(__list/intro__list.css);
+@import url(__list-li/intro__list-li.css);
+@import url(__list-number/intro__list-number.css);
+
+.intro{
+    margin: 92px 0 92px 100px;
+    max-width: 690px;
+}

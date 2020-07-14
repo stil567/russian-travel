@@ -1,0 +1,17 @@
+@import url(__title/cover__title.css);
+@import url(__subtitle/cover__subtitle.css);
+@import url(__link/cover__link.css);
+
+.cover{
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    
+    background: url(../../images/cover/cover-trains.jpg) center no-repeat;
+    background-size: cover;
+    
+    max-width: 1184px;
+    max-height: 740px;
+    height: 100%;
+}
+
