@@ -1,5 +1,6 @@
 @import url(__title/lead__title.css);
 @import url(__subtitle/lead__subtitle.css);
+@import url(__content/lead__content.css);
 @import url(__image/lead__image.css);
 @import url(__caption/lead__caption.css);
 
@@ -7,3 +8,4 @@
     max-width: 984px;
     margin: 56px auto 0;
 }
+

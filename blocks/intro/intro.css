@@ -10,16 +10,25 @@
 }
 
 @media screen and (max-width: 1100px){
-    
     .intro{
     margin: 92px 0 92px 0;
-    max-width: 690px;
+    }
+}
+
+@media screen and (max-width:950px){
+    .intro{
+        padding: 0 24px 0;
     }
 }
 
 @media screen and (max-width:680px){
-    
     .intro{
         margin: 64px auto;
+    }
+}
+
+@media screen and (max-width:320px){
+    .intro{
+        padding: 0 15px 0;
     }
 }

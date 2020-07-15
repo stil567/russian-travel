@@ -6,3 +6,15 @@
     
     grid-gap: 16px;
 }
+
+@media screen and (max-width:950px){
+    .photo-grid{
+        padding: 0 24px 0;
+    }
+}
+
+@media screen and (max-width:320px){
+    .photo-grid{
+        padding: 0 15px 0;
+    }
+}

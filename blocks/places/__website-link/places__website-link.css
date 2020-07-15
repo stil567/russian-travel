@@ -8,6 +8,5 @@
 }
 
 .places__website-link:hover {
-    color: #AAAAAA;
-    cursor: pointer;
+    opacity: .8;
 }

@@ -2,11 +2,24 @@
 @import url(__title/places__title.css);
 @import url(__image/places__image.css);
 @import url(__website/places__website.css);
-@import url(__website-li/places__website-li.css);
+@import url(__website-url/places__website-url.css);
 @import url(__website-link/places__website-link.css);
+@import url(__paragraphs/places__paragraphs.css);
 @import url(__paragraph/places__paragraph.css);
 
 .places{
     max-width: 984px;
     margin: 92px auto 0;
+}
+
+@media screen and (max-width:950px){
+    .places{
+        padding: 0 24px 0;
+    }
+}
+
+@media screen and (max-width:550px){
+    .places{
+        padding: 0;
+    }
 }

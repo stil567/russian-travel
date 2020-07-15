@@ -1,4 +1,6 @@
 @import url(__nav/footer__nav.css);
+@import url(__links/footer__links.css);
+@import url(__link/footer__link.css);
 @import url(__nav-link/footer__nav-link.css);
 @import url(__copyright/footer__copyright.css);
 
@@ -10,9 +12,16 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 950px){
+     .footer{
+        padding: 0 24px 0;
+    }
+}
+
 @media screen and (max-width: 520px){
      .footer{
         max-width: 186px;
+        padding: 0 15px 0;
     }
-
 }
+

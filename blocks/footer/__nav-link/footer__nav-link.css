@@ -7,9 +7,12 @@
     line-height: 18px;
 }
 
+.footer__nav-link:hover {
+    opacity: .8;
+}
+
 @media screen and (max-width: 520px){
     .footer__nav-link{
-        padding-bottom: 32px;
         font-size: 24px;
     }
 }

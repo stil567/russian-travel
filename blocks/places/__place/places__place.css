@@ -9,21 +9,17 @@
     margin-bottom: 80px;
 }
 
-
 @media screen and (max-width: 1024px){
-    
     .places__place {
-    grid-gap: 32px;
-    grid-template-columns: repeat(2, fit-content(350px));
-        
+        grid-column-gap: 32px;
+        grid-template-columns: repeat(2, fit-content(440px));  
     }
 }
 
 @media screen and (max-width: 768px){
-    
     .places__place {
-        grid-gap: 28px;
-        grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+        grid-column-gap: 28px;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
         margin-bottom: 72px;
     }
 }
@@ -31,5 +27,11 @@
 @media screen and (max-width: 520px){
     .places__place{
         margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .places__place {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     }
 }
