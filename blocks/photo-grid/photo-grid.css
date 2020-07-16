@@ -7,6 +7,12 @@
     grid-gap: 16px;
 }
 
+@media screen and (max-width:1024px){
+    .photo-grid{
+        padding: 0 48px 0;
+    }
+}
+
 @media screen and (max-width:950px){
     .photo-grid{
         padding: 0 24px 0;

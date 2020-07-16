@@ -5,6 +5,8 @@
     letter-spacing:0;
 
     text-decoration-line: underline;
+    
+    transition: .5s linear;
 }
 
 .places__website-link:hover {

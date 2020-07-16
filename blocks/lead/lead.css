@@ -9,3 +9,20 @@
     margin: 56px auto 0;
 }
 
+@media screen and (max-width:1024px){
+    .lead{
+        padding: 0 48px 0;
+    }
+}
+
+@media screen and (max-width:950px){
+    .lead{
+        padding: 0 24px 0;
+    }
+}
+
+@media screen and (max-width:768px){
+    .lead{
+        padding: 0;
+    }
+}

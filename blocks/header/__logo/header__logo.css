@@ -1,6 +1,7 @@
 .header__logo{
     max-height: 52px;
     max-width: 176px;
+    transition: .5s linear;
 }
 
 .header__logo:hover {

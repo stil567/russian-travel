@@ -2,11 +2,11 @@
     color:#fff;
     text-decoration: none;
     
-     display: block; 
+    display: block; 
     position: relative; 
     
     background: rgba(42, 44, 47, .3);  
-    
+    transition: .5s linear;    
 }
 
 

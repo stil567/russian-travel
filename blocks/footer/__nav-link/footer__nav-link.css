@@ -5,6 +5,8 @@
     
     font-size: 16px;
     line-height: 18px;
+    
+    transition: .5s linear;
 }
 
 .footer__nav-link:hover {
